@@ -1,2 +1,3 @@
 # TIL
-Today I Learned 
+Today I Learned
+오늘의 묵상
