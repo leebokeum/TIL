@@ -8,7 +8,8 @@
 
 #### 2. GitHub 모내기 사건의 발생
 2019년 08월 15일 휴무일에 **`집`** 에서 작성한 TIL이 commit은 되었지만 모가 심겨지지 않았음을 발견함.
-![alt text](/image/GIT/깃허브-모내기실패_LI.jpg )
+![alt text](/image/GIT/깃허브-모내기실패_LI.jpg)
+
 <br>
 
 #### 3. GitHub 모내기 사건의 분석
@@ -67,14 +68,14 @@
 ![alt text](/image/GIT/rebase-1.PNG)
 6. rebase할 커밋내용을 확인후 노란색 pick을 edit로 변경하고 wq로 저장한다.(아래사진 참고)
 ![alt text](/image/GIT/rebase-2.PNG)
-7. 아래 명령어를 3번 반복한다.
+7. 아래 명령어를 세번 반복한다.
     ~~~ shell
     $ git commit --amend --author="leebokeum <leebokeum87@gmail.com>"
     $ git rebase continue
     ~~~
     - git의 계정명과 이메일을 변경후 commit하고 rebase를 계속하겠다는 의미
-    - 변경할 commit 히스토리가 3개니까 3번 반복한다.
-8. 3번이 끝나면 successfull이라는 메시지가 나오면서 rebase가 정상적으로 되었다는 메시지가 나온다.
+    - 변경할 commit 히스토리가 세개니까 세번 반복한다.
+8. 세번이 끝나면 successfull이라는 메시지가 나오면서 rebase가 정상적으로 되었다는 메시지가 나온다.
 9. 마지막으로 GitHub 마스터에 강제 push를 해준다.
     ~~~ shell
     $ git push -f
