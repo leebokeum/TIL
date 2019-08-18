@@ -1,7 +1,7 @@
 #### AWS에 EBS 란
-1. EBS는 elastic block store의 약자이다.
-2. 한마디로 외장 하드라고 보면 된다.
-3. 기본적을 EC2 인스턴스를 하나 생성하면 8기가 EBS 볼륨이 기본으로 생성된다.
+- EBS는 elastic block store의 약자이다.
+- 한마디로 외장 하드라고 보면 된다.
+- 기본적을 EC2 인스턴스를 하나 생성하면 8기가 EBS 볼륨이 기본으로 생성된다.
 ~~~ shell
 $ df -hT /dev/xvda1
 Filesystem     Type  Size  Used Avail Use% Mounted on
