@@ -66,3 +66,7 @@ public class MyBean {
 app.name=MyApp
 app.description=${app.name} is a Spring Boot application
 ~~~
+
+
+#### 참조
+https://supawer0728.github.io/2018/03/11/Spring-Property/
