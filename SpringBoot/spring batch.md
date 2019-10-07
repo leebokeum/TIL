@@ -1,6 +1,8 @@
 #### 스프링 배치
 - 스프링 부트는 배치 스케쥴러를 제공하지 않는다. 따라서 배치 처리 기능만 제공하여 스케쥴링 기능은 스프링에서 제공하는 쿼치 프레임워크 등을 이용해야한다.
 
+![alt text](../image/springboot/batch.png)
+
 ### 적용
 `@EnableBatchProcessing` 어노테이션을 필수로 선언해야 spring batch기능이 활성화 된다.
 
@@ -13,7 +15,6 @@ public class SchedulerApplication {
     }
 }
 ~~~
-
 
 ### Job 설정
 - Spring Batch에서 Job은 하나의 배치 작업 단위를 얘기하는데요.
