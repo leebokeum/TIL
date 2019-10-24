@@ -3,6 +3,15 @@
 
 ![alt text](../image/springboot/batch.png)
 
+
+### 특징
+- Transaction management
+- Chunk based processing
+- Declarative I/O to read and write resources
+- Start/Stop/Restart
+- Retry/Skip
+- Web based administration interface (With Spring Batch Admin)
+
 ### 적용
 `@EnableBatchProcessing` 어노테이션을 필수로 선언해야 spring batch기능이 활성화 된다.
 
