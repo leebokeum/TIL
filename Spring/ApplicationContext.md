@@ -5,3 +5,9 @@
 - Spring에서 생성되는 Bean에 대한 IoC Container (또는 Bean Container)
 - Application Context에 정의된 Bean은 Servlet Context에 정의 된 Bean을 사용할 수 없다.
 - 공통 기능을 할 수 있는 Bean설정 (Datasource, Service 등..)
+
+### 종류
+- ClassPathXmlApplicationContext
+- FileSystemXmlApplicationContext
+- XmlWebApplicationContext
+- AnnotationConfigApplicationContext
