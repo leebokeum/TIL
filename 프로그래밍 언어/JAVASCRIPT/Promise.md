@@ -104,7 +104,7 @@ getData().then(function (resolvedData) {
 #### Rejected(실패)
 new Promise()로 프로미스 객체를 생성하면 콜백 함수 인자로 resolve와 reject를 사용할 수 있다고 했습니다. 여기서 reject 인자로 reject() 메서드를 실행하면 Rejected(실패) 상태가 됩니다.
 ~~~ javascript
-ew Promise(function (resolve, reject) {
+new Promise(function (resolve, reject) {
   reject();
 });
 
