@@ -19,4 +19,6 @@
 | void wait()   | 레드를 일시적으로 중지할 때 호출한다. |
 | void wait(long timeout)   | 주어진 시간만큼 스레드를 일시적으로 중지할 때 호출한다.|
 | void wait(long timeout, int nanos)   | 주어진 시간만큼 스레드를 일시적으로 중지할 때 호출한다.|
+|getClass| 객체의 클래스형을 반환한다. |
+|toString| 두 개의 객체가 같은지 비교하여 같으면 true를, 같지 않으면 false를 반환한다. |
 
