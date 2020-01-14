@@ -1,5 +1,5 @@
 #### 콘솔에 한글이 깨져서 나오는 문제
-- 인터넷을 찾아보니 ide.exe.vmoptions에 -Dfile.encoding=UTF-8을 삽입하거나 톰캣 vm 옵션에 -Dfile.encoding=UTF-8d을 삽입하라고 나온다. 하지만 나의 경우 여전히 한글은 깨졌다. 
+- 인터넷을 찾아보니 ide.exe.vmoptions에 -Dfile.encoding=UTF-8을 삽입하거나 톰캣 vm 옵션에 -Dfile.encoding=UTF-8을 삽입하라고 나온다. 하지만 나의 경우 여전히 한글은 깨졌다. 
 
 #### 해결
 - settings - file encodings에 global/project encoding을 euc-kr로 모두 변경하였다.
