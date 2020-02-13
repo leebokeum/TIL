@@ -33,6 +33,9 @@ Dependency Injection(의존성 주입)과 Inversion Of Control(제어의 역전)
 3. Java Code
 
 
+#### 키워드
+경량, DI, AOP, Container, framework
+
 
 ### 참조
 https://12bme.tistory.com/157
