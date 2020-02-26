@@ -37,3 +37,7 @@ null이 넘어올 경우, NPE를 던지지 않고 Optional.empty()와 동일하�
 Optional<Member> maybeMember = Optional.ofNullable(aMember);
 Optional<Member> maybeNotMember = Optional.ofNullable(null);
 ```
+
+
+### 참조
+https://www.daleseo.com/java8-optional-after/
