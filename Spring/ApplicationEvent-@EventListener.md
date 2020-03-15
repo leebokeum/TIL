@@ -120,5 +120,10 @@ public class SpringbootEventlistenerExampleApplication {
 }
 ```
 
+### 이벤트 어노테이션 종류
+- @EntityListeners
+- @EventListener
+- @TransactionEventListener
+
 ## 참조
 http://wonwoo.ml/index.php/post/1070
