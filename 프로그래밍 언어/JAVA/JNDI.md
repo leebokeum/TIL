@@ -1,4 +1,12 @@
-### JNDI란
+### JNDI란(Java Naming and Directory Interface)
+- 필요한 자원을 키/값(key/value)쌍으로 저장한 후 필요할때 키를 이용해 값을  얻는 방법이다.
+
+### JNDI 예
+- 웹 브라우저에서 name/value 쌍으로 전송한 후 서블릿에서 getParameter(name)로 값을 가져올때
+- 해시맵(HashMap) 이나 해시테이블(HashTable)에 키/값으로 저장한 후 키를 이용해 값을 가져올때
+- 웹 브라우저에서 도메인네임으로 DNS서버에 요청할 경우 도메인 네임에 대한 IP주소를 가져올때
+
+### JNDI 대표적인 예, 톰캣을 이용한 database 설정
 - 웹 어플리케이션에서 ConnectionPool 객체를 구현할 때는 Java SE에서 제공하는 javax.sql.DataSource 클래스를 이용한다.
 - 웹 어플리케이션실행시 톰캣이 만들어 놓은 ConnectionPool 객체에 접근 할때는 JNDI를 이용한다.
 
