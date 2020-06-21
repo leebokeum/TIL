@@ -2,4 +2,4 @@
 - /private/etc/hosts
 
 ### 수정
-- vi sudo nano /private/etc/hosts
+- sudo vi /private/etc/hosts
