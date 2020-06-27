@@ -188,3 +188,6 @@ getData().then(
 ~~~ javascript
 getData().then().catch();
 ~~~
+
+### 참조
+https://joshua1988.github.io/web-development/javascript/promise-for-beginners/
