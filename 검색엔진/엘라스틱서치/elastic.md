@@ -23,4 +23,22 @@
 
 ### Elasticsearch와 관계형 DB 비교
 ![alt text](/image/검색엔진/엘라스틱서치1.jpg)
-![alt text](/image/검색엔진/엘라스틱서치2.jpg)
+![alt text](/image/검색엔진/엘라스틱서치2.png)
+
+
+### Elasticsearch 특징
+- Scale out
+    - 샤드를 통해 규모가 수평적으로 늘어날 수 있음
+- 고가용성
+    - Replica를 통해 데이터의 안정성을 보장
+- Schema Free
+    - Json 문서를 통해 데이터 검색을 수행하므로 스키마 개념이 없음
+- Restful
+    - 데이터 CURD 작업은 HTTP Restful API를 통해 수행하며, 각각 다음과 같이 대응합니다.
+  
+| Data CRUD |  Elasticsearch Restful |
+|-----------|------------------------|
+|  SELECT   |  GET                   |
+|  INSERT   | PUT                    |
+|  UPDATE   | POST                   |
+|  DELETE   |  DELETE                |
