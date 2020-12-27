@@ -20,3 +20,6 @@ if: Expression Syntax.
 # exec bash
 (bash쉘로 수정)
 ~~~
+
+
+source ~/.cshrc
