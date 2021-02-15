@@ -47,3 +47,11 @@ public class FirstFilter implements javax.servlet.Filter {
      }
   }
 ~~~
+
+
+### dispatcherTypes
+- dispatcherType이 가질 수 있는 값은 REQUEST, INCLUDE, FORWARD, ERROR 가 있는데 다음 상황에서 필터를 적용하라는 의미이다.
+REQUEST : url을 통해 들어올 경우.
+INCLUDE : include() 를 통해(<jsp:include ..>) 를 통해 들어올 경우.
+FORWARD : forward() 를 통해(<jsp:forward ..>) 를 통해 들어올 경우.
+ERROR : <%@ page errorPage="..." %>를 통해 에러페이지로 이동할 경우.

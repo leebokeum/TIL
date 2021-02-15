@@ -23,3 +23,7 @@ if: Expression Syntax.
 
 
 source ~/.cshrc
+
+
+vi ~/.zshrc
+source ~/.zshrc
