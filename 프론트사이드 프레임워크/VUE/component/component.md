@@ -199,3 +199,13 @@ new Vue({
 ```js
 this.$emit('update:foo', newValue)
 ```
+
+
+#### 컴포넌트의 v-model 사용자 정의
+```html
+<my-checkbox
+  :checked="foo"
+  @change="val => { foo = val }"
+  value="some value">
+</my-checkbox>
+```
