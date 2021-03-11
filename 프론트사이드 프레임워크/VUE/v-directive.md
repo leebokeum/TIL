@@ -20,5 +20,5 @@ directives: {
 ```
 
 ```html
-<input v-focus>
+<input v-focus>크
 ```
