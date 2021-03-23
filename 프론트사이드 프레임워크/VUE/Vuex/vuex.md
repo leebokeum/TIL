@@ -1,6 +1,9 @@
 ### vuex를 왜 사용하나
 - 무수히 많은 컴포넌트의 데이터를 관리하기 위한 상태 관리 패턴이자 라이브러리
 - React의 Flux 패턴에서 기인함
+- mutations의 함수는 대문자로 쓰는게 관행
+- mutations를 부를 때는 this.$store.commit('CLICK_CELL');
+- vuex의 state를 사용하기 위해서는 computed를 통해서 가져와야 한다. 
 
 ### Flux란?
 - MVC 패턴의 복잡한 데이터 흐름 문제를 해결하는 개발 패턴 - Undirectional data flow

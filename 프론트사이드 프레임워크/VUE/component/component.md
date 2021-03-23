@@ -1,5 +1,6 @@
 ### component
 - template, script, style 한 세트
+- component 이름은 두단어 이상
 
 ### 전역 컴포넌트
 - 전역 컴포넌트를 등록하려면, Vue.component(tagName, options)를 사용합니다.

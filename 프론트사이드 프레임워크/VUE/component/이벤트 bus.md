@@ -11,3 +11,10 @@ bus.$on('id-selected', function (id) {
 })
 // 보다 복잡한 경우에는 전용 상태 관리 패턴을 고려해야합니다
 ```
+
+eventBus.js
+- event를 중앙에서 통제하는 시스템
+~~~js
+import Vue form 'vue';
+export default new Vue();
+~~~
