@@ -55,3 +55,6 @@ CORS 요청을 허용할 Http Method들 (e.g. GET,PUT,POST)
 해당 서버에서 Authorization로 사용자 인증도 서비스할 것이라면 true로 응답해야 할 것이다.
 - Access-Contorl-Max-Age
 preflight 요청의 캐시 시간.
+
+출처
+https://oddpoet.net/blog/2017/04/27/cors-with-spring-security/
